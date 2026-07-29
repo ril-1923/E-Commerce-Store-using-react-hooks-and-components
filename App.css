@@ -1,0 +1,110 @@
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #f8f9fa;
+}
+
+/* Product Card */
+.card {
+  border: none;
+  border-radius: 12px;
+  transition: all 0.3s ease;
+  overflow: hidden;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.15);
+}
+
+.card-img-top {
+  height: 220px;
+  object-fit: cover;
+}
+
+.card-title {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.card-text {
+  color: #6c757d;
+  font-size: 14px;
+}
+
+/* Buttons */
+.btn-primary {
+  border-radius: 8px;
+  font-weight: 500;
+}
+
+.btn-danger {
+  border-radius: 8px;
+}
+
+.btn-warning {
+  font-weight: 600;
+}
+
+/* Navbar */
+.navbar-brand {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.navbar input {
+  border-radius: 30px;
+}
+
+/* Footer */
+footer {
+  margin-top: 60px;
+}
+
+footer a:hover {
+  color: #ffc107 !important;
+}
+
+footer svg {
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+footer svg:hover {
+  transform: scale(1.2);
+  color: #ffc107;
+}
+
+/* Shopping Cart */
+.alert {
+  border-radius: 10px;
+}
+
+.badge {
+  font-size: 14px;
+}
+
+/* Category Buttons */
+.btn-outline-primary,
+.btn-primary {
+  border-radius: 25px;
+  margin-bottom: 10px;
+}
+
+/* Product Price */
+.text-success {
+  font-weight: bold;
+}
+
+/* Loader */
+.spinner-border {
+  width: 3rem;
+  height: 3rem;
+}
+
+/* Smooth Scroll */
+html {
+  scroll-behavior: smooth;
+}
